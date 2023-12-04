@@ -1,0 +1,159 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Students",
+    "dateExported": "2023-12-04T11:18:22.807Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2de08bf2-d2ec-45d1-a9eb-498493e5e2eb",
+            "colId": "0c73dc3c-7bcc-47e1-b7a6-649cf59a2341",
+            "containerId": "",
+            "name": "Read all",
+            "url": "http://127.0.0.1:8000/api/student",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-04T10:21:04.429Z",
+            "modified": "2023-12-04T10:22:02.384Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e835c0e3-6308-45fd-b6f7-18a892fe18f9",
+            "colId": "0c73dc3c-7bcc-47e1-b7a6-649cf59a2341",
+            "containerId": "",
+            "name": "create",
+            "url": "http://127.0.0.1:8000/api/student",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-12-04T10:53:46.435Z",
+            "modified": "2023-12-04T11:01:04.326Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Józsi II. belka\",\n  \"email\": \"jozsika2@gmail.com\",\n  \"rank\": 70\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "588714d9-1805-4c08-aec7-04179a03ff51",
+            "colId": "0c73dc3c-7bcc-47e1-b7a6-649cf59a2341",
+            "containerId": "",
+            "name": "UPDATE",
+            "url": "http://127.0.0.1:8000/api/student/20",
+            "method": "PATCH",
+            "sortNum": 17500,
+            "created": "2023-12-04T11:13:28.719Z",
+            "modified": "2023-12-04T11:14:49.560Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Józsi II. belkaka\",\n  \"email\": \"jozsika2@gmail.com\",\n  \"rank\": 70\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dcb32cd4-b8fb-4b1c-bb26-fa1eedf1bdbc",
+            "colId": "0c73dc3c-7bcc-47e1-b7a6-649cf59a2341",
+            "containerId": "",
+            "name": "Search by id",
+            "url": "http://127.0.0.1:8000/api/student/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-04T10:26:43.244Z",
+            "modified": "2023-12-04T10:32:06.171Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "34ffcbf0-aaa1-4352-8b0d-a53de59ab787",
+            "colId": "0c73dc3c-7bcc-47e1-b7a6-649cf59a2341",
+            "containerId": "",
+            "name": "Delete",
+            "url": "http://127.0.0.1:8000/api/student/21",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-12-04T11:07:56.391Z",
+            "modified": "2023-12-04T11:09:05.403Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
